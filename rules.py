@@ -116,6 +116,9 @@ def rule2_histogram(target, input_path):
         pass
     return out
 
+def _g(img, s):
+    g = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    return cv2.resize(g, None, fx=s, fy = s, interpolation = cv2.INTER_AREA) if s < 1 else g
 
 def rule3_template(target, input_path):
     """Template matching. Detects when the suspect is contained in the original.
@@ -127,10 +130,16 @@ def rule3_template(target, input_path):
     out = {"rule": 3, "name": "Template", "fired": False, "score": 0,
            "out_of": 40, "note": "Match score 0.00", "metric": 0.0}
     try:
-        src_g = _gray(target["path"])
-        nd_g = _gray(input_path)
-        if src_g is None or nd_g is None:
+
+        src = _arr(target["path"])
+        sus = _arr(input_path)
+
+        if src is None or sus is None:
             return out
+
+        s = min(1.0, 512/max(src.shape[:2])) 
+        src_g, nd_g = _g(src, s), _g(sus, s)
+
         if (src_g.shape[0] < nd_g.shape[0]) or (src_g.shape[1] < nd_g.shape[1]):
             nd_g = cv2.resize(nd_g, (min(nd_g.shape[1], src_g.shape[1]),
                                      min(nd_g.shape[0], src_g.shape[0])))
