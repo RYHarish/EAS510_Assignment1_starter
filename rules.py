@@ -128,7 +128,7 @@ def rule3_template(target, input_path):
     that becomes Rule 4 territory.
     """
     out = {"rule": 3, "name": "Template", "fired": False, "score": 0,
-           "out_of": 30, "note": "Match score 0.00", "metric": 0.0}
+           "out_of": 40, "note": "Match score 0.00", "metric": 0.0}
     try:
 
         src = _arr(target["path"])
