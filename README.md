@@ -1,4 +1,4 @@
-# EAS 510 - Assignment 1: Digital Forensics Apprentice (HGR)
+# EAS 510 - Assignment 1: Digital Forensics Apprentice
 
 A rule-based expert system that matches modified images back to their originals.
 
