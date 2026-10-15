@@ -82,6 +82,18 @@ Your Codio box can be reset at any time. **Your fork on GitHub is the only safe
 copy.** After every milestone run `./submit.sh "describe what you did"`. A box
 restart never touches GitHub.
 
+## Observed weakness in V1: 
+The Rule 3 template matching has scaled both the Source image and the cropped image down to same dimension resulting 
+in the cropped image being smaller than the source image and hence the templates didn't matched. I have modified the V1 rule 3
+to work on the images of same scale. which improved the results in the easy cases but the hard cases were getting lower scores due
+to images that have been resized and scaled were not getting matched on the template rule. 
+## Design decision for V2: what Rule 4 is and why you chose it
+To tackle the limitations of V1. I have added the rule 4 using ORB checks which are tollarent to the resize scale or roatation of the image
+## Effect of the change: accuracy before/after on easy vs hard 
+The accuracy got improved singnificantly
+## Trade-offs: what new costs or risks did Rule 4 introduce
+we have reduced the thresholds of other rukes like template mathcing, and the time taken by the system has increased.
+
 ## License
 
 Apache 2.0. See `LICENSE`.
