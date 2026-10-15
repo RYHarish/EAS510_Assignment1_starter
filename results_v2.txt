@@ -142,7 +142,7 @@ Processing: modified_03_crop_25pct.jpg
 Rule 1 (Metadata): NO MATCH - Size ratio 0.07 -> 0/30 points
 Rule 2 (Histogram): FIRED - Correlation 0.70 -> 21/30 points
 Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
-Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliners) -> 0/10 points
+Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliers) -> 0/10 points
 Final Score: 51/100 -> MATCH to original_03
 
 Processing: modified_03_crop_50pct.jpg
@@ -268,7 +268,7 @@ Processing: modified_06_crop_25pct.jpg
 Rule 1 (Metadata): NO MATCH - Size ratio 0.07 -> 0/30 points
 Rule 2 (Histogram): FIRED - Correlation 0.97 -> 29/30 points
 Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
-Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliners) -> 0/10 points
+Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliers) -> 0/10 points
 Final Score: 59/100 -> MATCH to original_06
 
 Processing: modified_06_crop_50pct.jpg
@@ -394,7 +394,7 @@ Processing: modified_09_crop_25pct.jpg
 Rule 1 (Metadata): NO MATCH - Size ratio 0.07 -> 0/30 points
 Rule 2 (Histogram): NO MATCH - Correlation 0.35 -> 0/30 points
 Rule 3 (Template): FIRED - Match score 1.00 -> 30/30 points
-Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliners) -> 0/10 points
+Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliers) -> 0/10 points
 Final Score: 30/100 -> REJECTED
 
 Processing: modified_09_crop_50pct.jpg
@@ -828,7 +828,7 @@ Processing: original_09__resize_scale75__compress__q30__v3.jpg
 Rule 1 (Metadata): NO MATCH - Size ratio 0.12 -> 0/30 points
 Rule 2 (Histogram): FIRED - Correlation 0.93 -> 28/30 points
 Rule 3 (Template): NO MATCH - Match score 0.31 -> 0/30 points
-Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliners) -> 0/10 points
+Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliers) -> 0/10 points
 Final Score: 28/100 -> REJECTED
 
 Processing: original_09__rotate-3deg__compress__q65__v4.jpg
@@ -842,103 +842,103 @@ Processing: random_05.jpg
 Rule 1 (Metadata): FIRED - Size ratio 0.78 -> 23/30 points
 Rule 2 (Histogram): NO MATCH - Correlation 0.04 -> 0/30 points
 Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/30 points
-Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliners) -> 0/10 points
+Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliers) -> 0/10 points
 Final Score: 23/100 -> REJECTED
 
 Processing: random_06.jpg
 Rule 1 (Metadata): FIRED - Size ratio 0.79 -> 24/30 points
 Rule 2 (Histogram): NO MATCH - Correlation 0.11 -> 0/30 points
 Rule 3 (Template): NO MATCH - Match score 0.07 -> 0/30 points
-Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliners) -> 0/10 points
+Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliers) -> 0/10 points
 Final Score: 24/100 -> REJECTED
 
 Processing: random_07.jpg
 Rule 1 (Metadata): FIRED - Size ratio 0.90 -> 27/30 points
 Rule 2 (Histogram): NO MATCH - Correlation 0.04 -> 0/30 points
 Rule 3 (Template): NO MATCH - Match score 0.03 -> 0/30 points
-Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliners) -> 0/10 points
+Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliers) -> 0/10 points
 Final Score: 27/100 -> REJECTED
 
 Processing: random_08.jpg
 Rule 1 (Metadata): FIRED - Size ratio 0.66 -> 20/30 points
 Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/30 points
 Rule 3 (Template): NO MATCH - Match score 0.63 -> 0/30 points
-Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliners) -> 0/10 points
+Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliers) -> 0/10 points
 Final Score: 20/100 -> REJECTED
 
 Processing: random_09.jpg
 Rule 1 (Metadata): FIRED - Size ratio 0.85 -> 25/30 points
 Rule 2 (Histogram): NO MATCH - Correlation 0.15 -> 0/30 points
 Rule 3 (Template): NO MATCH - Match score 0.01 -> 0/30 points
-Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliners) -> 0/10 points
+Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliers) -> 0/10 points
 Final Score: 25/100 -> REJECTED
 
 Processing: random_10.jpg
 Rule 1 (Metadata): FIRED - Size ratio 0.86 -> 26/30 points
 Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/30 points
 Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/30 points
-Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliners) -> 0/10 points
+Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliers) -> 0/10 points
 Final Score: 26/100 -> REJECTED
 
 Processing: random_11.jpg
 Rule 1 (Metadata): FIRED - Size ratio 0.69 -> 21/30 points
 Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/30 points
 Rule 3 (Template): NO MATCH - Match score 0.31 -> 0/30 points
-Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliners) -> 0/10 points
+Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliers) -> 0/10 points
 Final Score: 21/100 -> REJECTED
 
 Processing: random_12.jpg
 Rule 1 (Metadata): FIRED - Size ratio 0.94 -> 28/30 points
 Rule 2 (Histogram): NO MATCH - Correlation 0.04 -> 0/30 points
 Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/30 points
-Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliners) -> 0/10 points
+Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliers) -> 0/10 points
 Final Score: 28/100 -> REJECTED
 
 Processing: random_13.jpg
 Rule 1 (Metadata): FIRED - Size ratio 0.77 -> 23/30 points
 Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/30 points
 Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/30 points
-Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliners) -> 0/10 points
+Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliers) -> 0/10 points
 Final Score: 23/100 -> REJECTED
 
 Processing: random_14.jpg
 Rule 1 (Metadata): FIRED - Size ratio 0.73 -> 22/30 points
 Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/30 points
 Rule 3 (Template): NO MATCH - Match score 0.02 -> 0/30 points
-Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliners) -> 0/10 points
+Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliers) -> 0/10 points
 Final Score: 22/100 -> REJECTED
 
 Processing: random_noise_00.jpg
 Rule 1 (Metadata): NO MATCH - Size ratio 0.02 -> 0/30 points
 Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/30 points
 Rule 3 (Template): NO MATCH - Match score 0.11 -> 0/30 points
-Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliners) -> 0/10 points
+Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliers) -> 0/10 points
 Final Score: 0/100 -> REJECTED
 
 Processing: random_noise_01.jpg
 Rule 1 (Metadata): NO MATCH - Size ratio 0.02 -> 0/30 points
 Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/30 points
 Rule 3 (Template): NO MATCH - Match score 0.11 -> 0/30 points
-Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliners) -> 0/10 points
+Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliers) -> 0/10 points
 Final Score: 0/100 -> REJECTED
 
 Processing: random_noise_02.jpg
 Rule 1 (Metadata): NO MATCH - Size ratio 0.02 -> 0/30 points
 Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/30 points
 Rule 3 (Template): NO MATCH - Match score 0.12 -> 0/30 points
-Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliners) -> 0/10 points
+Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliers) -> 0/10 points
 Final Score: 0/100 -> REJECTED
 
 Processing: random_noise_03.jpg
 Rule 1 (Metadata): NO MATCH - Size ratio 0.02 -> 0/30 points
 Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/30 points
 Rule 3 (Template): NO MATCH - Match score 0.12 -> 0/30 points
-Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliners) -> 0/10 points
+Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliers) -> 0/10 points
 Final Score: 0/100 -> REJECTED
 
 Processing: random_noise_04.jpg
 Rule 1 (Metadata): NO MATCH - Size ratio 0.02 -> 0/30 points
 Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/30 points
 Rule 3 (Template): NO MATCH - Match score 0.11 -> 0/30 points
-Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliners) -> 0/10 points
+Rule 4 (ORB): NO MATCH - Feature Score 0.00 (0 inliers) -> 0/10 points
 Final Score: 0/100 -> REJECTED
